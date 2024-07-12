@@ -1,0 +1,156 @@
+/* Container styling */
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.container {
+  font-family: Arial, sans-serif;
+  margin: 10 auto;
+  margin-top: 50px;
+  padding: 10px;
+  background-color: #f4f4f9;
+  border-radius: 8px;
+  width: auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styling */
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* Form styling */
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  margin-bottom: 20px;
+}
+
+.form-grid label {
+  display: block;
+  color: #555;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-grid input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #ccc;
+}
+
+/* Button styling */
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.finish-button {
+  background-color: #f44336;
+}
+
+button:hover:not(:disabled) {
+  opacity: 0.8;
+}
+
+/* Results table styling */
+.results {
+  margin-top: 20px;
+  color: black;
+}
+
+.results h2 {
+  color: #333;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+td {
+  background-color: #fff;
+  color: #555;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.results-list li {
+  padding: 5px 0;
+  color: black;
+}
+
+
+/* Responsive container for charts */
+.responsive-container {
+  width: 100%;
+  height: 400px;
+  margin-top: 20px;
+}
