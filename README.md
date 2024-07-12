@@ -13,15 +13,14 @@ This project is a general-purpose HTTP load-testing and benchmarking tool. It co
 ## Prerequisites
 
 - Docker
-- Docker Compose (optional, but recommended for ease of use)
 
 ## Getting Started
 
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/Chandramani05/load-testing-tool.git
-cd load-testing-tool
+git clone https://github.com/Chandramani05/HTTP-Load-Tester.git
+cd HTTP-Load-Tester
 
 ```
 Navigate to the backend and build the docker image
